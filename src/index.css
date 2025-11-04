@@ -33,3 +33,10 @@ main {
     min-height: 50px;
   }
 }
+
+#navi-blu {
+  list-style: none;
+
+  color: white;
+  background-color: blue;
+}
