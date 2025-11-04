@@ -13,14 +13,19 @@
 /* HEADER */
 header {
   display: flex;
+  justify-content: space-between;
 }
 
-#nav-list {
-  display: flex;
-  list-style: none;
+nav {
+  #nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 
-  a {
-    text-decoration: none;
+    a {
+      color: #006aff;
+      text-decoration: none;
+    }
   }
 }
 
@@ -36,7 +41,7 @@ main {
 }
 
 #navi-blu {
-  background-color: rgb(0, 106, 255);
+  background-color: #006aff;
   height: 50px;
 
   a {
@@ -47,7 +52,7 @@ main {
   ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
