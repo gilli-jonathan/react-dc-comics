@@ -64,6 +64,7 @@ main {
 
 footer {
   overflow-y: hidden;
+  padding-top: 2rem;
   height: 350px;
   background-image: url(../src/assets/img/footer-bg.jpg);
   background-size: cover;
@@ -103,4 +104,17 @@ footer {
 
 #social-footer {
   background-color: rgb(46, 46, 46);
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+#social-icon {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1rem;
 }

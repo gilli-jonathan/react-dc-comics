@@ -12,12 +12,13 @@ export default function SocialFooter() {
             <div className="container">
                 <button>SIGN-UP NOW!</button>
                 <nav>
-                    <ul><h4>FOLLOW US</h4></ul>
-                    <li><img src={Facebook} alt="" /></li>
-                    <li><img src={Twitter} alt="" /></li>
-                    <li><img src={Youtube} alt="" /></li>
-                    <li><img src={Pinterest} alt="" /></li>
-                    <li><img src={Periscope} alt="" /></li>
+                    <ul id="social-icon"><h4>FOLLOW US</h4>
+                        <li><img src={Facebook} alt="" /></li>
+                        <li><img src={Twitter} alt="" /></li>
+                        <li><img src={Youtube} alt="" /></li>
+                        <li><img src={Pinterest} alt="" /></li>
+                        <li><img src={Periscope} alt="" /></li>
+                    </ul>
 
 
                 </nav>
