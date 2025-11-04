@@ -2,8 +2,8 @@ export default function Navi() {
 
 
     return (
-        <nav>
-            <ul id="nav-blu" >
+        <nav id="navi-blu">
+            <ul >
                 <li>
                     <a href="">
                         DIGITAL COMICS
@@ -11,7 +11,7 @@ export default function Navi() {
                 </li>
                 <li>
                     <a href="">
-                        dC MERCHANDISE
+                        DC MERCHANDISE
                     </a>
                 </li>
                 <li>
