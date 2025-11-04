@@ -54,6 +54,8 @@ main {
 /* FOOTER */
 
 footer {
+  overflow-y: hidden;
+  height: 350px;
   background-image: url(../src/assets/img/footer-bg.jpg);
 }
 
@@ -75,5 +77,9 @@ footer {
 
   #footer-logo {
     width: 60%;
+
+    img {
+      height: 100%;
+    }
   }
 }

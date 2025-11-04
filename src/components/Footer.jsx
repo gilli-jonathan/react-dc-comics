@@ -1,3 +1,5 @@
+import LogoFooter from "../assets/img/dc-logo-bg.png"
+
 export default function Footer() {
 
 
@@ -54,7 +56,7 @@ export default function Footer() {
 
 
                 <div id="footer-logo">
-                    <img src="" alt="" />
+                    <img src={LogoFooter} alt="" />
                 </div>
 
             </section>
