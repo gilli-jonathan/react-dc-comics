@@ -1,4 +1,4 @@
-
+import Logo from "./logo"
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <header>
         <div id="header-logo" >
-          <img src="" alt="" />
+          <Logo />
         </div>
         <nav>
           <ul id="nav-list" >
@@ -43,7 +43,7 @@ function App() {
             </li>
             <li>
               <a href="">
-                vIDEOS
+                VIDEOS
               </a>
             </li>
             <li>
