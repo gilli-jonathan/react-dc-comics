@@ -57,6 +57,7 @@ footer {
   overflow-y: hidden;
   height: 350px;
   background-image: url(../src/assets/img/footer-bg.jpg);
+  background-size: cover;
 }
 
 #footer-standard {
@@ -82,4 +83,8 @@ footer {
       height: 100%;
     }
   }
+}
+
+#social-footer {
+  background-color: rgb(46, 46, 46);
 }
