@@ -3,7 +3,7 @@ import Logo from "./Logo"
 export default function Header() {
 
     return (
-        <header>
+        <header className="container">
             <div id="header-logo" >
                 <Logo />
             </div>

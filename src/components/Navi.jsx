@@ -3,7 +3,7 @@ export default function Navi() {
 
     return (
         <nav id="navi-blu">
-            <ul >
+            <ul className="container">
                 <li>
                     <a href="">
                         DIGITAL COMICS
