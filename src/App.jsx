@@ -1,33 +1,71 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <div id="header-logo" >
+          <img src="" alt="" />
+        </div>
+        <nav>
+          <ul id="nav-list" >
+            <li>
+              <a href="">
+                CHARACTERS
+              </a>
+            </li>
+            <li>
+              <a href="">
+                COMICS
+              </a>
+            </li>
+            <li>
+              <a href="">
+                MOVIES
+              </a>
+            </li>
+            <li>
+              <a href="">
+                TV
+              </a>
+            </li>
+            <li>
+              <a href="">
+                GAMES
+              </a>
+            </li>
+            <li>
+              <a href="">
+                COLLECTIBLES
+              </a>
+            </li>
+            <li>
+              <a href="">
+                vIDEOS
+              </a>
+            </li>
+            <li>
+              <a href="">
+                FANS
+              </a>
+            </li>
+            <li>
+              <a href="">
+                NEWS
+              </a>
+            </li>
+            <li>
+              <a href="">
+                SHOP
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+
+      </header>
     </>
   )
 }
