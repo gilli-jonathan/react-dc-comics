@@ -58,8 +58,18 @@ export default function Footer() {
 
     function create_li(obj) {
 
-        return
+        return (
+            <ul>
+                <h3> {obj.title}</h3>
 
+                {obj.link.map((el, i) => (
+
+                    <li key={i}>
+                        <a href={el.url}>{el.voce}</a>
+                    </li>
+                ))}
+            </ul>
+        )
     }
 
 
@@ -69,24 +79,18 @@ export default function Footer() {
                 <nav id="footer-list">
 
                     <div>
-                        <ul>
+                        {create_li(link_dcComics)}
 
-                        </ul>
+                        {create_li(link_shop)}
+                    </div>
 
-                        <ul>
-
-                        </ul>
+                    <div>
+                        {create_li(link_Dc)}
 
                     </div>
 
                     <div>
-                        <ul>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <ul>
-                        </ul>
+                        {create_li(link_sites)}
                     </div>
                 </nav>
 
