@@ -28,9 +28,18 @@ header {
       list-style: none;
       gap: 1.5rem;
 
+      & :hover {
+        a {
+          padding-bottom: 40px;
+          border-bottom: 10px solid #006aff;
+          color: #006aff;
+        }
+      }
+
       a {
-        color: #006aff;
+        color: black;
         text-decoration: none;
+        margin-bottom: 10px;
       }
     }
   }
