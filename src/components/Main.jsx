@@ -1,4 +1,5 @@
 import Jumbotron from "./Jumbotron"
+import ComicsCard from "./ComicsCard"
 
 export default function Main() {
 
@@ -8,12 +9,8 @@ export default function Main() {
 
         <main >
             <Jumbotron />
-            <section className="container">
-                <div>
+            <ComicsCard />
 
-
-                </div>
-            </section>
         </main>
 
     )
