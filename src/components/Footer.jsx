@@ -2,6 +2,8 @@ import LogoFooter from "../assets/img/dc-logo-bg.png"
 
 export default function Footer() {
 
+    //blocco di oggetti
+
     const link_dcComics = {
         title: "DC COMICS",
         link: [
@@ -15,6 +17,15 @@ export default function Footer() {
         ]
     }
 
+    const link_shop = {
+
+        title: "SHOP",
+        link: [
+            { voce: "Shop Dc", url: "#" },
+            { voce: "Shop Dc Collectibles", url: "#" }
+        ],
+
+    }
 
     const link_Dc = {
         title: "DC",
@@ -46,16 +57,8 @@ export default function Footer() {
         ]
     }
 
-    const link_shop = {
 
-        title: "SHOP",
-        link: [
-            { voce: "Shop Dc", url: "#" },
-            { voce: "Shop Dc Collectibles", url: "#" }
-        ],
-
-    }
-
+    // function
     function create_li(obj) {
 
         return (
@@ -72,7 +75,7 @@ export default function Footer() {
         )
     }
 
-
+    // return
     return (
         <footer>
             <section id="footer-standard" className="container">

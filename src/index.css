@@ -153,8 +153,9 @@ footer {
         margin: 1rem 0;
       }
 
-      li {
-        opacity: 65%;
+      a {
+        text-decoration: none;
+        color: rgb(169, 168, 168);
       }
     }
   }
