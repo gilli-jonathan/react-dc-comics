@@ -13,41 +13,41 @@ export default function Navi() {
                 <li>
                     <a href="">
                         <div>
-                            {/* <img src={DcPhone} alt="" /> */}
+                            {<img src={DcPhone} alt="" />}
                         </div>
-                        DIGITAL COMICS
+                        <span>DIGITAL COMICS</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <div>
-                            {/* <img src={DcTshirt} alt="" /> */}
+                            {<img src={DcTshirt} alt="" />}
                         </div>
-                        DC MERCHANDISE
+                        <span>DC MERCHANDISE</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <div>
-                            {/* {<img src={DcSubscription} alt="" />} */}
+                            {<img src={DcSubscription} alt="" />}
                         </div>
-                        SUBSCRIPTION
+                        <span>SUBSCRIPTION</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <div>
-                            {/* <img src={DcPin} alt="" /> */}
+                            {<img src={DcPin} alt="" />}
                         </div>
-                        COMIC SHOP LOCATOR
+                        <span>COMIC SHOP LOCATOR</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <div>
-                            {/* {<img src={DcVisa} alt="" />} */}
+                            {< img src={DcVisa} alt="" />}
                         </div>
-                        DC POWER VISA
+                        <span>DC POWER VISA</span>
                     </a>
                 </li>
 
