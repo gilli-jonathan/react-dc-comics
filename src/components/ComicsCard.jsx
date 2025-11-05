@@ -22,7 +22,9 @@ export default function ComicsCard() {
                 }
 
             </div>
-            <button></button>
+            <div id="card-btn">
+                <button ><b>LOAD MORE</b></button>
+            </div>
 
         </section>
 

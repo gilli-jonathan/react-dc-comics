@@ -60,18 +60,36 @@ main {
 
 /* COMICS CARD */
 
-#card-daddy {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
+#comics-section {
+  #card-daddy {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
 
-  .card-img-container {
-    height: 250px;
-    width: 162.5px;
-    img {
-      height: 100%;
-      width: 100%;
+    .card-img-container {
+      margin-top: 2rem;
+      height: 250px;
+      width: 162.5px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  #card-btn {
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+    button {
+      padding: 0.8rem;
+      color: white;
+      background-color: #006aff;
+      margin: 2px solid #006aff;
+      border-color: #006aff;
     }
   }
 }
