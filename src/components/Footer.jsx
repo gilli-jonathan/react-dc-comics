@@ -2,6 +2,66 @@ import LogoFooter from "../assets/img/dc-logo-bg.png"
 
 export default function Footer() {
 
+    const link_dcComics = {
+        title: "DC COMICS",
+        link: [
+            { voce: "Characters", url: "#" },
+            { voce: "Comics", url: "#" },
+            { voce: "Movies", url: "#" },
+            { voce: "TV", url: "#" },
+            { voce: "Games", url: "#" },
+            { voce: "Videos", url: "#" },
+            { voce: "News", url: "#" }
+        ]
+    }
+
+
+    const link_Dc = {
+        title: "DC",
+        link: [
+            { voce: "Terms Of Use", url: "#" },
+            { voce: "Privacy policy (New)", url: "#" },
+            { voce: "Ad Choices", url: "#" },
+            { voce: "Advertising", url: "#" },
+            { voce: "Jobs", url: "#" },
+            { voce: "Subscritions", url: "#" },
+            { voce: "Talent Workshop", url: "#" },
+            { voce: "CPCS Certificates", url: "#" },
+            { voce: "Ratings", url: "#" },
+            { voce: "Shop Help", url: "#" },
+            { voce: "Contact Us", url: "#" }
+        ],
+    }
+
+    const link_sites = {
+        title: "SITES",
+        link: [
+            { voce: "DC", url: "#" },
+            { voce: "MAD Magazine", url: "#" },
+            { voce: "DC Kids", url: "#" },
+            { voce: "Dc Universe", url: "#" },
+            { voce: "DC Power Visa", url: "#" },
+            { voce: "Create By", url: "#" },
+            { voce: "Jonathan", url: "#" }
+        ]
+    }
+
+    const link_shop = {
+
+        title: "SHOP",
+        link: [
+            { voce: "Shop Dc", url: "#" },
+            { voce: "Shop Dc Collectibles", url: "#" }
+        ],
+
+    }
+
+    function create_li(obj) {
+
+        return
+
+    }
+
 
     return (
         <footer>
@@ -9,48 +69,23 @@ export default function Footer() {
                 <nav id="footer-list">
 
                     <div>
-                        <ul> <h3>DC COMICS</h3>
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>TV</li>
-                            <li>Games</li>
-                            <li>Videos</li>
-                            <li>News</li>
+                        <ul>
+
                         </ul>
 
-                        <ul> <h3>SHOP</h3>
-                            <li>Shop Dc</li>
-                            <li>Shop Dc Collectibles</li>
+                        <ul>
+
                         </ul>
 
                     </div>
 
                     <div>
-                        <ul> <h3>DC</h3>
-                            <li>Terms Of Use</li>
-                            <li>Privacy policy (New)</li>
-                            <li>Ad Choices</li>
-                            <li>Advertising</li>
-                            <li>Jobs</li>
-                            <li>Subscritions</li>
-                            <li>talent Workshop</li>
-                            <li>CPCS Certificates</li>
-                            <li>Ratings</li>
-                            <li>Shop Help</li>
-                            <li>Contact Us</li>
+                        <ul>
                         </ul>
                     </div>
 
                     <div>
-                        <ul> <h3>SITES</h3>
-                            <li>DC</li>
-                            <li>MAD Magazine</li>
-                            <li>DC Kids</li>
-                            <li>Dc Universe</li>
-                            <li>DC Power Visa</li>
-                            <li>Create By</li>
-                            <li>Jonathan</li>
+                        <ul>
                         </ul>
                     </div>
                 </nav>
