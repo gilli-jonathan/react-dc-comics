@@ -60,6 +60,22 @@ main {
 
 /* COMICS CARD */
 
+#card-daddy {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  .card-img-container {
+    height: 250px;
+    width: 162.5px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
 /* BLU NAV-BAR */
 #navi-blu {
   background-color: #006aff;
