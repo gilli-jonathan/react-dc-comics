@@ -103,7 +103,16 @@ footer {
 }
 
 #social-footer {
-  background-color: rgb(46, 46, 46);
+  padding: 1.5rem;
+  background-color: #2e2e2e;
+
+  button {
+    padding: 0.8rem;
+    color: white;
+    background-color: #2e2e2e;
+    margin: 2px solid #006aff;
+    border-color: #006aff;
+  }
 
   div {
     display: flex;
@@ -116,5 +125,11 @@ footer {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  align-items: center;
   gap: 1rem;
+
+  h4 {
+    text-align: center;
+    color: #006aff;
+  }
 }

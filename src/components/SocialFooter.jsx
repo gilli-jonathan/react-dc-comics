@@ -10,7 +10,7 @@ export default function SocialFooter() {
     return (
         <section id="social-footer">
             <div className="container">
-                <button>SIGN-UP NOW!</button>
+                <button><b>SIGN-UP NOW!</b></button>
                 <nav>
                     <ul id="social-icon"><h4>FOLLOW US</h4>
                         <li><img src={Facebook} alt="" /></li>
