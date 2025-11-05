@@ -7,7 +7,7 @@ export default function ComicsCard() {
 
     return (
         <section id="comics-section" className="container">
-            <div><h3>CURRENT SERIES</h3></div>
+            <div id="card-title"><h3>CURRENT SERIES</h3></div>
             <div id="card-daddy">
 
                 {
