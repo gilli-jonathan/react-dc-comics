@@ -55,6 +55,10 @@ main {
   a {
     text-decoration: none;
     color: white;
+
+    img {
+      height: 100%;
+    }
   }
 
   ul {

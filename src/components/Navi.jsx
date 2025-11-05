@@ -1,8 +1,8 @@
 import DcPhone from "../assets/img/buy-comics-digital-comics.png"
 import DcTshirt from "../assets/img/buy-comics-merchandise.png"
-// import DcPhone from "../assets/img/buy-comics-digital-comics.png"
+import DcSubscription from "../assets/img/buy-comics-subscriptions.png"
 import DcPin from "../assets/img/buy-comics-shop-locator.png"
-// import DcPhone from "../assets/img/buy-comics-digital-comics.png"
+import DcVisa from "../assets/img/buy-dc-power-visa.svg"
 
 export default function Navi() {
 
@@ -12,31 +12,41 @@ export default function Navi() {
             <ul className="container">
                 <li>
                     <a href="">
-                        <img src={DcPhone} alt="" />
+                        <div>
+                            {/* <img src={DcPhone} alt="" /> */}
+                        </div>
                         DIGITAL COMICS
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src={DcTshirt} alt="" />
+                        <div>
+                            {/* <img src={DcTshirt} alt="" /> */}
+                        </div>
                         DC MERCHANDISE
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        {/* <img src={DcPhone} alt="" /> */}
+                        <div>
+                            {/* {<img src={DcSubscription} alt="" />} */}
+                        </div>
                         SUBSCRIPTION
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src={DcPin} alt="" />
+                        <div>
+                            {/* <img src={DcPin} alt="" /> */}
+                        </div>
                         COMIC SHOP LOCATOR
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        {/* <img src={DcPhone} alt="" /> */}
+                        <div>
+                            {/* {<img src={DcVisa} alt="" />} */}
+                        </div>
                         DC POWER VISA
                     </a>
                 </li>
