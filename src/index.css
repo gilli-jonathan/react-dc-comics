@@ -47,6 +47,17 @@ main {
   }
 }
 
+/* JUMBOTRON */
+
+#jumbo-img-container {
+  height: 400px;
+  overflow-y: hidden;
+
+  #jumbo-img {
+    width: 100%;
+  }
+}
+
 #navi-blu {
   background-color: #006aff;
   height: 50px;
