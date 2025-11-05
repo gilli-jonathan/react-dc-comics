@@ -13,7 +13,7 @@ export default function ComicsCard() {
                 {
                     comics.map(item => (
 
-                        <div className="card-img-container">
+                        <div key={item.id} className="card-img-container">
                             <img src={item.thumb} alt="" />
                             <h5>{item.series}</h5>
                         </div>

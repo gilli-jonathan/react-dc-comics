@@ -10,7 +10,6 @@ export default function Main() {
         <main >
             <Jumbotron />
             <ComicsCard />
-
         </main>
 
     )
