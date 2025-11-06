@@ -82,7 +82,7 @@ main {
   #card-daddy {
     margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
+
     gap: 2rem;
     flex-wrap: wrap;
 

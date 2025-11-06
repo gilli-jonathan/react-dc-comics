@@ -4,7 +4,7 @@ import DcSubscription from "../assets/img/buy-comics-subscriptions.png"
 import DcPin from "../assets/img/buy-comics-shop-locator.png"
 import DcVisa from "../assets/img/buy-dc-power-visa.svg"
 
-export default function Navi() {
+export default function BannerBlu() {
 
 
     return (

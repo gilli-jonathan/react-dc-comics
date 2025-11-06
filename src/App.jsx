@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Main from "./components/Main"
-import Navi from "./components/Navi"
+import BannerBlu from "./components/BannerBlu"
 import Footer from "./components/Footer"
 import SocialFooter from "./components/SocialFooter"
 
@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <Main />
-      <Navi />
+      <BannerBlu />
       <Footer />
       <SocialFooter />
     </>
