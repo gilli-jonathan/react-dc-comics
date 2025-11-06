@@ -1,4 +1,5 @@
 import comics from "../assets/comics.js"
+import Card from "./Card.jsx"
 
 export default function ComicsCard() {
 
@@ -13,10 +14,7 @@ export default function ComicsCard() {
                 {
                     comics.map(item => (
 
-                        <div key={item.id} className="card-img-container">
-                            <img src={item.thumb} alt="" />
-                            <h5>{item.series}</h5>
-                        </div>
+                        <Card key={item.id} thumb={item.thumb} series={item.series} />
 
                     ))
                 }
