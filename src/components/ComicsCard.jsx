@@ -3,7 +3,7 @@ import Card from "./Card.jsx"
 
 export default function ComicsCard() {
 
-    comics
+
 
 
     return (
@@ -14,7 +14,7 @@ export default function ComicsCard() {
                 {
                     comics.map(item => (
 
-                        <Card key={item.id} thumb={item.thumb} series={item.series} />
+                        <Card key={item.id} obj={item} />
 
                     ))
                 }

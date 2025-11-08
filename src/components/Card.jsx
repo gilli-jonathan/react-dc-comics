@@ -1,4 +1,4 @@
-export default function Card({ thumb, series }) {
+export default function Card({ obj }) {
 
 
 
@@ -6,8 +6,8 @@ export default function Card({ thumb, series }) {
 
 
         <div className="card-img-container">
-            <img src={thumb} alt="" />
-            <h5>{series}</h5>
+            <img src={obj.thumb} alt="" />
+            <h5>{obj.series}</h5>
         </div>
     )
 }
